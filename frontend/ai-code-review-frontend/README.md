@@ -1,70 +1,141 @@
-# Getting Started with Create React App
+# AI Code Review System 🚀
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered full-stack web application that reviews source code files and provides intelligent feedback on code quality, complexity, maintainability, and best practices.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## ✨ Features
 
-### `npm start`
+- 📂 Upload Java, Python, and JavaScript files
+- 🤖 AI-generated code review and suggestions
+- 📊 Code quality analysis
+- ⚠️ Warning detection
+- 🎨 Modern responsive UI
+- 📝 Monaco code editor integration
+- 🔗 Full-stack architecture using Spring Boot + React
+- 💾 MySQL database integration
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🛠️ Tech Stack
 
-### `npm test`
+### Frontend
+- React.js
+- Tailwind CSS
+- Axios
+- Monaco Editor
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
+- Java
+- Spring Boot
+- Spring Data JPA
+- REST APIs
 
-### `npm run build`
+### Database
+- MySQL
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### AI Integration
+- OpenAI API
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 📸 Screenshots
 
-### `npm run eject`
+### Home Page
+![Home Page](screenshots/home.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### AI Analysis Result
+![Analysis Result](screenshots/analysis.png)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ⚙️ Installation & Setup
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# 1️⃣ Clone Repository
 
-## Learn More
+```bash
+git clone https://github.com/M-Poojitha04/ai-code-review-system.git
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 2️⃣ Backend Setup
 
-### Code Splitting
+Navigate to backend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+cd backend/ai-code-review
+```
 
-### Analyzing the Bundle Size
+Run Spring Boot application:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+mvn spring-boot:run
+```
 
-### Making a Progressive Web App
+Backend runs on:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```text
+http://localhost:8080
+```
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# 3️⃣ Frontend Setup
 
-### Deployment
+Navigate to frontend:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+cd frontend/ai-code-review-frontend
+```
 
-### `npm run build` fails to minify
+Install dependencies:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm install
+```
+
+Start React app:
+
+```bash
+npm start
+```
+
+Frontend runs on:
+
+```text
+http://localhost:3000
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+ai-code-review-system/
+│
+├── backend/
+│   └── ai-code-review/
+│
+├── frontend/
+│   └── ai-code-review-frontend/
+```
+
+---
+
+## 🔥 Future Improvements
+
+- GitHub Repository Analyzer
+- Multi-file project analysis
+- Authentication & User Accounts
+- Deployment on Render/Vercel
+- AI-powered refactoring suggestions
+
+---
+
+## 👩‍💻 Author
+
+### Poojitha Machrla
+
+GitHub:
+https://github.com/M-Poojitha04
